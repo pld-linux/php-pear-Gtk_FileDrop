@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Gtk
 %define		_subclass	FileDrop
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Make Gtk widgets accept file drops
 Summary(pl):	%{_pearname} - obs³uga upuszczania plików w wid¿etach Gtk
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
-Release:	2
+Version:	1.0.1
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	9b17671c000669556aeef50e4ce9e3b1
+# Source0-md5:	8c2d69f40ce3408f46cbd5dd86aad1f1
 URL:		http://pear.php.net/package/Gtk_FileDrop/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
