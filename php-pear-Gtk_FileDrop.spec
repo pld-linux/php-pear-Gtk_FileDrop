@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	8c2d69f40ce3408f46cbd5dd86aad1f1
 URL:		http://pear.php.net/package/Gtk_FileDrop/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear-MIME_Type >= 1.0.0
 Requires:	php-pear
