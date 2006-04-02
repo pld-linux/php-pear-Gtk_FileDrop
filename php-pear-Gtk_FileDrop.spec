@@ -42,6 +42,7 @@ Summary(pl):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
+AutoProv:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
