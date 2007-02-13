@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Make Gtk widgets accept file drops
-Summary(pl.UTF-8):   %{_pearname} - obsługa upuszczania plików w widżetach Gtk
+Summary(pl.UTF-8):	%{_pearname} - obsługa upuszczania plików w widżetach Gtk
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	1
@@ -40,7 +40,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
