@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - Make Gtk widgets accept file drops
 Summary(pl.UTF-8):	%{_pearname} - obsługa upuszczania plików w widżetach Gtk
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
-Release:	3
+Version:	1.0.3
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	9bf6c0481e8491bdd0fbfa29159e4953
+# Source0-md5:	b33fa57dfcb730d66ce374852cb6a367
 URL:		http://pear.php.net/package/Gtk_FileDrop/
 BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
